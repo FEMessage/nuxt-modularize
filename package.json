@@ -33,6 +33,7 @@
     "babel-jest": "latest",
     "codecov": "latest",
     "eslint": "latest",
+    "fast-glob": "^3.0.4",
     "get-port": "latest",
     "husky": "latest",
     "jest": "latest",
