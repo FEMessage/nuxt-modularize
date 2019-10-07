@@ -1,12 +1,15 @@
 <template>
-  <div>商品域</div>
+  <div>
+    商品详情test{{ $route.params.id }}
+  </div>
 </template>
 
 <script>
 export default {
-  layout: 'test'
+
 }
 </script>
 
 <style lang="scss" scoped>
+
 </style>

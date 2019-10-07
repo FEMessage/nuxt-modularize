@@ -1,12 +1,16 @@
 <template>
-  <div>商品域</div>
+  <div>
+    layout: test
+    <Nuxt />
+  </div>
 </template>
 
 <script>
 export default {
-  layout: 'test'
+
 }
 </script>
 
 <style lang="scss" scoped>
+
 </style>
