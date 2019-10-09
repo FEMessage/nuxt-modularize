@@ -1,3 +1,3 @@
 export const state = () => ({
-  goodsId: 312
+  goodsId: 31233
 })

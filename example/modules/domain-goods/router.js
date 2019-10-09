@@ -2,7 +2,10 @@ export default [
   {
     path: '/goods',
     component: './views/index.vue',
-    name: 'goodsIndex'
+    name: 'goodsIndex',
+    meta: {
+      test: 'meta is ok'
+    }
   },
   {
     path: '/goods/detail/:id',
