@@ -1,10 +1,17 @@
 <template>
-  <div>商品域</div>
+  <div>商品域{{ test }}</div>
 </template>
 
 <script>
+import { test } from '^domain-goods/const/path.js'
 export default {
-  layout: 'test'
+  layout: 'test',
+
+  data () {
+    return {
+      test
+    }
+  }
 }
 </script>
 
