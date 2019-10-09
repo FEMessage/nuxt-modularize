@@ -27,6 +27,7 @@
     "bin"
   ],
   "dependencies": {
+    "@nuxt/cli": "^2.10.0",
     "fs-extra": "^8.1.0"
   },
   "devDependencies": {
@@ -34,7 +35,7 @@
     "@babel/preset-env": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
-    "@nuxt/utils": "^2.10.0",
+    "nuxt": "^2.10.0",
     "@nuxtjs/eslint-config": "latest",
     "babel-eslint": "latest",
     "babel-jest": "latest",
@@ -44,7 +45,6 @@
     "get-port": "latest",
     "husky": "latest",
     "jest": "latest",
-    "nuxt-edge": "latest",
     "prompts": "^2.2.1",
     "request": "latest",
     "request-promise-native": "latest",
