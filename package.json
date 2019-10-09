@@ -1,6 +1,6 @@
 {
   "name": "@femessage/nuxt-modularize",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "modularize nuxt project",
   "license": "MIT",
   "contributors": [
@@ -8,6 +8,9 @@
       "name": "Han <xsytby1112@gmail.com>"
     }
   ],
+  "bin": {
+    "nuxt-module": "./bin/command.js"
+  },
   "main": "lib/module.js",
   "repository": "user",
   "publishConfig": {
@@ -20,7 +23,8 @@
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
   },
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -28,6 +32,7 @@
     "@babel/preset-env": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@nuxt/cli": "^2.10.0",
     "@nuxtjs/eslint-config": "latest",
     "babel-eslint": "latest",
     "babel-jest": "latest",
@@ -38,6 +43,7 @@
     "husky": "latest",
     "jest": "latest",
     "nuxt-edge": "latest",
+    "prompts": "^2.2.1",
     "request": "latest",
     "request-promise-native": "latest",
     "standard-version": "latest"
