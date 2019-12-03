@@ -1,6 +1,6 @@
 {
-  "name": "@femessage/nuxt-modularize",
-  "version": "0.0.6",
+  "name": "@hanxx/nuxt-modularize",
+  "version": "0.0.1",
   "description": "modularize nuxt project",
   "license": "MIT",
   "contributors": [
