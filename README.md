@@ -15,7 +15,7 @@
 1. Add `@femessage/nuxt-modularize` dependency to your project
 
 ```bash
-yarn add @femessage/nuxt-modularize # or npm install @femessage/nuxt-modularize
+yarn add @femessage/nuxt-modularize -D # or npm install @femessage/nuxt-modularize -D
 ```
 
 2. Add `@femessage/nuxt-modularize` to the `modules` section of `nuxt.config.js`
@@ -42,7 +42,7 @@ yarn add @femessage/nuxt-modularize # or npm install @femessage/nuxt-modularize
 
 [MIT License](./LICENSE)
 
-Copyright (c) Han <xsytby1112@gmail.com>
+Copyright (c) FEMessage
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/@femessage/nuxt-modularize/latest.svg?style=flat-square
@@ -50,12 +50,6 @@ Copyright (c) Han <xsytby1112@gmail.com>
 
 [npm-downloads-src]: https://img.shields.io/npm/dt/@femessage/nuxt-modularize.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@femessage/nuxt-modularize
-
-[circle-ci-src]: https://img.shields.io/circleci/project/github/user.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/user
-
-[codecov-src]: https://img.shields.io/codecov/c/github/user.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/user
 
 [license-src]: https://img.shields.io/npm/l/@femessage/nuxt-modularize.svg?style=flat-square
 [license-href]: https://npmjs.com/package/@femessage/nuxt-modularize
