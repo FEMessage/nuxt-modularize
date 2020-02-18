@@ -32,6 +32,10 @@ yarn add @femessage/nuxt-modularize -D # or npm install @femessage/nuxt-modulari
 }
 ```
 
+## How To Use
+
+[Docs](./docs/how-to-use.md)
+
 ## Development
 
 1. Clone this repository
