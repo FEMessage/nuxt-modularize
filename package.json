@@ -1,7 +1,7 @@
 {
-  "name": "@hanxx/nuxt-modularize",
+  "name": "@femessage/nuxt-modularize",
   "version": "0.0.5",
-  "description": "modularize nuxt project",
+  "description": "A simple way to separate nuxt as you want",
   "license": "MIT",
   "author": "Han <xsytby1112@gmail.com>",
   "bin": {
