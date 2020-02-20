@@ -1,6 +1,6 @@
 {
   "name": "@femessage/nuxt-modularize",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "A simple way to separate nuxt as you want",
   "license": "MIT",
   "author": "Han <xsytby1112@gmail.com>",
@@ -8,7 +8,7 @@
     "nuxt-module": "./bin/command.js"
   },
   "main": "lib/module.js",
-  "repository": "user",
+  "repository": "https://github.com/FEMessage/nuxt-modularize",
   "publishConfig": {
     "access": "public"
   },
