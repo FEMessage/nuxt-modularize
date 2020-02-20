@@ -1,12 +1,25 @@
-# @femessage/nuxt-modularize
+# Nuxt-Modularize
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![License][license-src]][license-href]
+[![Build Status](https://badgen.net/travis/FEMessage/nuxt-micro-frontend/master)](https://travis-ci.com/FEMessage/nuxt-micro-frontend)
+[![NPM Download](https://badgen.net/npm/dm/@femessage/nuxt-micro-frontend)](https://www.npmjs.com/package/@femessage/nuxt-micro-frontend)
+[![NPM Version](https://badgen.net/npm/v/@femessage/nuxt-micro-frontend)](https://www.npmjs.com/package/@femessage/nuxt-micro-frontend)
+[![NPM License](https://badgen.net/npm/license/@femessage/nuxt-micro-frontend)](https://github.com/FEMessage/nuxt-micro-frontend/blob/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/FEMessage/nuxt-micro-frontend/pulls)
+[![Automated Release Notes by gren](https://img.shields.io/badge/%F0%9F%A4%96-release%20notes-00B2EE.svg)](https://github-tools.github.io/github-release-notes/)
 
 **A simple way to separate nuxt as you want**
 
+[中文](./README-zh.md)
+
 [📖 **Release Notes**](./CHANGELOG.md)
+
+## Features
+Use this nuxt module you can:
+
+- Split few independent module for development
+- Build Nuxt on demand
+- Composing a pages with Components friendly, such as dividing a page into some components in a same views directory
+- Other development experience same as Nuxt
 
 ## Setup
 
@@ -45,13 +58,3 @@ yarn add @femessage/nuxt-modularize -D # or npm install @femessage/nuxt-modulari
 [MIT License](./LICENSE)
 
 Copyright (c) FEMessage
-
-<!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@femessage/nuxt-modularize/latest.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/@femessage/nuxt-modularize
-
-[npm-downloads-src]: https://img.shields.io/npm/dt/@femessage/nuxt-modularize.svg?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/@femessage/nuxt-modularize
-
-[license-src]: https://img.shields.io/npm/l/@femessage/nuxt-modularize.svg?style=flat-square
-[license-href]: https://npmjs.com/package/@femessage/nuxt-modularize
