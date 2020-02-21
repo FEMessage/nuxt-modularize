@@ -56,7 +56,7 @@ src/
 
 ### ⭐️模块命名
 
-- 以域作为划分，所以 demain-{域的描述} 作为模块名
+- 以域作为划分，所以 domain-{域的描述} 作为模块名
 - 如 交易域 domain-trade, 商品域 domain-goods
 - 尽量使用简单简短的一个单词描述
 
@@ -85,7 +85,7 @@ views
 
 - 默认文件为 `src/modules/{moduleName}/router.js` 
 - 只需要 `export default` 一个数组即可
-- **componet 只需要写一个相对路径即可，方便 ide 自动补全路径，增加效率。模块会自动处理文件路径的**
+- **component 只需要写一个相对路径即可，方便 ide 自动补全路径，增加效率。模块会自动处理文件路径的**
 - 可以获取完整的 vue-router 功能，给路由增加自定义的属性，实现与路由关联的功能如面包屑
 - name 属性：以 `-` 分隔，如 goods-detail, 反例 goodsIndex
 - 路由的**必要参数**推荐使用动态路由，如 /goods/detail/:id id 是必须才能进入页面，其他辅助参数写在 query 即可
