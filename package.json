@@ -30,8 +30,6 @@
   "devDependencies": {
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
-    "@commitlint/cli": "latest",
-    "@commitlint/config-conventional": "latest",
     "@femessage/github-release-notes": "^0.19.0",
     "@nuxt/cli": "latest",
     "@nuxtjs/eslint-config": "latest",
